@@ -46,7 +46,7 @@ echo "require
 ```bash
 python3 -m venv pyenv
 ./pyenv/bin/activate
-pip install black
+pip install black flask
 ```
 
 Install the Python extension for Visual Studio Code if not installed yet:
