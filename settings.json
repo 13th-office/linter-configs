@@ -1,0 +1,22 @@
+{
+    // Python Flask
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "none",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    // Ruby on Rails
+    "ruby.lint": {
+        "reek": false,
+        "rubocop": true,
+        "ruby": false,
+        "fasterer": false,
+        "debride": false,
+        "ruby-lint": false,
+    },
+    "ruby.format": "rubocop",
+    // All
+    "editor.formatOnSave": true,
+}
