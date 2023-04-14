@@ -33,8 +33,8 @@ rails new server --api
 cd server
 rm -rf .git
 echo "group :development, :test do
- gem 'rubocop', require: false
- gem 'rubocop-rails', require: false
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
 end" >> Gemfile
 bundle install
 echo "require:
