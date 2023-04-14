@@ -37,7 +37,7 @@ echo "group :development, :test do
  gem 'rubocop-rails', require: false
 end" >> Gemfile
 bundle install
-echo "require
+echo "require:
   - rubocop-rails" >> .rubocop.yml
 ```
 
